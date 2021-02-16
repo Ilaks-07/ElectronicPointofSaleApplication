@@ -1,0 +1,163 @@
+﻿namespace Ravikumar_Ilakkiya_Assignment4_MS806
+{
+    partial class Form2
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.SearchbyIDBox = new System.Windows.Forms.TextBox();
+            this.TranscationDisplayListBox = new System.Windows.Forms.ListBox();
+            this.SearchButton = new System.Windows.Forms.Button();
+            this.DetailsListBox = new System.Windows.Forms.ListBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.PreviousButton = new System.Windows.Forms.Button();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // SearchbyIDBox
+            // 
+            this.SearchbyIDBox.Location = new System.Drawing.Point(230, 73);
+            this.SearchbyIDBox.Name = "SearchbyIDBox";
+            this.SearchbyIDBox.Size = new System.Drawing.Size(120, 22);
+            this.SearchbyIDBox.TabIndex = 25;
+            // 
+            // TranscationDisplayListBox
+            // 
+            this.TranscationDisplayListBox.FormattingEnabled = true;
+            this.TranscationDisplayListBox.ItemHeight = 16;
+            this.TranscationDisplayListBox.Location = new System.Drawing.Point(6, 11);
+            this.TranscationDisplayListBox.Name = "TranscationDisplayListBox";
+            this.TranscationDisplayListBox.SelectionMode = System.Windows.Forms.SelectionMode.None;
+            this.TranscationDisplayListBox.Size = new System.Drawing.Size(638, 260);
+            this.TranscationDisplayListBox.TabIndex = 24;
+            // 
+            // SearchButton
+            // 
+            this.SearchButton.Location = new System.Drawing.Point(11, 63);
+            this.SearchButton.Name = "SearchButton";
+            this.SearchButton.Size = new System.Drawing.Size(199, 42);
+            this.SearchButton.TabIndex = 23;
+            this.SearchButton.Text = "&Search by Transaction ID";
+            this.SearchButton.UseVisualStyleBackColor = true;
+            this.SearchButton.Click += new System.EventHandler(this.SearchButton_Click);
+            // 
+            // DetailsListBox
+            // 
+            this.DetailsListBox.FormattingEnabled = true;
+            this.DetailsListBox.ItemHeight = 16;
+            this.DetailsListBox.Location = new System.Drawing.Point(373, 38);
+            this.DetailsListBox.Name = "DetailsListBox";
+            this.DetailsListBox.Size = new System.Drawing.Size(243, 84);
+            this.DetailsListBox.TabIndex = 26;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label1.Location = new System.Drawing.Point(31, 16);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(265, 20);
+            this.label1.TabIndex = 27;
+            this.label1.Text = "Management Stock Report Details";
+            // 
+            // panel1
+            // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.TranscationDisplayListBox);
+            this.panel1.Location = new System.Drawing.Point(16, 26);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(652, 284);
+            this.panel1.TabIndex = 28;
+            // 
+            // panel2
+            // 
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel2.Controls.Add(this.DetailsListBox);
+            this.panel2.Controls.Add(this.SearchbyIDBox);
+            this.panel2.Controls.Add(this.SearchButton);
+            this.panel2.Location = new System.Drawing.Point(16, 345);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(637, 159);
+            this.panel2.TabIndex = 29;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label2.Location = new System.Drawing.Point(31, 335);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(177, 20);
+            this.label2.TabIndex = 30;
+            this.label2.Text = "Search Transaction ID";
+            // 
+            // PreviousButton
+            // 
+            this.PreviousButton.Location = new System.Drawing.Point(487, 533);
+            this.PreviousButton.Name = "PreviousButton";
+            this.PreviousButton.Size = new System.Drawing.Size(106, 38);
+            this.PreviousButton.TabIndex = 31;
+            this.PreviousButton.Text = "Pre&vious";
+            this.PreviousButton.UseVisualStyleBackColor = true;
+            this.PreviousButton.Click += new System.EventHandler(this.PreviousButton_Click);
+            // 
+            // Form2
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(672, 583);
+            this.Controls.Add(this.PreviousButton);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.panel1);
+            this.Name = "Form2";
+            this.Text = "Stock Report and Transcation Details";
+            this.Load += new System.EventHandler(this.Form2_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.TextBox SearchbyIDBox;
+        private System.Windows.Forms.ListBox TranscationDisplayListBox;
+        private System.Windows.Forms.Button SearchButton;
+        public System.Windows.Forms.ListBox DetailsListBox;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button PreviousButton;
+    }
+}

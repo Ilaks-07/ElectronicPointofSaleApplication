@@ -1,0 +1,17 @@
+Management Report -- Sold Stocks
+Time Stamp --- 01/16/2021 9:53:22 PM
+	Mini Figures	Collectibles	Bobble Head	Plush	Electronic	Sale Value
+Thor	0		0		0		0		0		0
+Hulk	0		0		0		0		0		0
+Spidey	1		0		0		0		0		105
+Captain	0		0		0		0		0		0
+Groot	0		0		0		0		0		0
+Storm	0		0		0		1		0		95
+Thanos	0		0		0		0		0		0
+Hela	0		0		0		0		0		0
+Ironman	0		0		0		0		0		0
+Cable	0		0		0		0		0		0
+MystiQ	0		0		0		0		0		0
+Scarlet	0		0		0		0		0		0
+Luna	0		0		0		0		0		0
+ Total Sold Price :200

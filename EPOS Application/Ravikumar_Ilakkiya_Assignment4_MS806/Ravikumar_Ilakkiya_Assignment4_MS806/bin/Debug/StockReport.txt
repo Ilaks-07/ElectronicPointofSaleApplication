@@ -1,0 +1,16 @@
+Management Report -- Available Stocks
+Time Stamp --- 01/16/2021 9:50:45 PM
+	Mini Figures	Collectibles	Bobble Head	Plush	Electronic
+Thor	35		10		40		45		20	
+Hulk	25		5		15		10		19	
+Spidey	15		35		13		9		15	
+Captain	10		30		25		35		10	
+Groot	95		25		20		80		15	
+Storm	41		31		50		43		32	
+Thanos	41		21		51		33		4	
+Hela	19		34		43		32		37	
+Ironman	27		12		29		37		46	
+Cable	29		22		15		18		16	
+MystiQ	49		41		37		47		16	
+Scarlet	21		12		48		26		26	
+Luna	25		16		17		18		15	
